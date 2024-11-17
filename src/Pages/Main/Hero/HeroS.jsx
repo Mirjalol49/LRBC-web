@@ -23,14 +23,14 @@ function Index() {
         </div>
       </div>
 
-      <article className=" pt-2 text-center w-[70%] mx-auto text-[#FAF3DD]  z-10 relative">
+      <article className="hero-box pt-2 w-[70%] mx-auto text-[#FAF3DD]  z-10 relative">
         <h1 className=" hero-title  text-center text-5xl  font-medium py-3">
           Orzular quruq va’dalar ustiga qurilmaydi
         </h1>
         <p className="hero-text">
-          Orzuingizdagi loyiha shunchaki va’dalardan ko‘proq narsaga loyiq.
-          Mohir hunarmandchilik, aniq muloqot va sifatga sodiqligimiz bilan biz
-          nafaqat quramiz, balki g‘oyalaringizni hayotga tatbiq etamiz.
+          Innovatsion yechimlar, oliy darajadagi mahorat va ishonchga tayanib,
+          g‘oyalarni ramziy inshootlarga aylantiramiz. Keling, siz faxrlanadigan
+          kelajakni birgalikda bunyod etaylik.
         </p>
       </article>
       <div className="hero-center">

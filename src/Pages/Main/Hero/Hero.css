@@ -1,6 +1,7 @@
 .hero-section {
     position: relative;
     overflow: hidden;
+    
 }
 
 .sparkles-overlay {
@@ -13,13 +14,13 @@
     display        : flex;
     align-items    : center;
     justify-content: center;
-    margin-top     : 50px;
+    margin-top     : 20px;
 
 }
 
 .hero-title {
      font-family: "Alatsi", sans-serif;
-     font-size: 3rem;
+   font-size: min(60px, 8vw);
      font-weight: 500;
      word-spacing: 1px;
      letter-spacing: 1px;
@@ -28,7 +29,29 @@
 
 .hero-text {
      font-family: "Inter", sans-serif;
-     font-size:1rem ;
+     font-size:1.20rem ;
      word-spacing: 1px;
      letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+ .hero-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+    .hero-title {
+        font-size: 12vw;
+        width: 100%;
+    }
+
+    .hero-text {
+        width: 85%;
+       
+        font-size: 6vw;
+    }
 }
