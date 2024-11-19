@@ -1,0 +1,110 @@
+.whychoose {
+    background-color: #12123C;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.whychoose-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+
+    
+}
+
+
+.whychoose-in-center {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Add floating animation */
+@keyframes floating {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  50% {
+    transform: translateY(-10px); /* Slight upward movement */
+  }
+  100% {
+    transform: translateY(0); /* Back to start position */
+  }
+}
+
+
+
+
+.whychoose-img {
+    width: 220px;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     animation: floating 3s ease-in-out infinite; /* Smooth floating effect */
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+.whychoose-text {
+    font-size:1.25rem ;
+    line-height: 1.5;
+    color: #FDFAF0;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    max-width: 700px;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+}
+
+.whychoose-title {
+    font-size: 2.5rem;
+    font-family: "Alatsi", sans-serif;
+    font-weight: 600;
+    color: #62a4ff;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin: 20px 0 20px 0;
+    text-align: center;
+letter-spacing: 1px;
+}
+
+.whychoose-subtext {
+       display: inline-block;
+    font-weight: 600;
+   color:#EBCD41;
+   
+}
+
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the video */
+  align-items: center; /* Vertically center the video */
+  width: 100%; /* Full width of the container */
+  height: auto; /* Adjust height automatically */
+  position: relative;
+  margin: 10px 0 30px 0; /* Optional margin for spacing */
+}
+
+.whychoose-video {
+  width: 80%; /* Set the video size to 80% of the parent container's width */
+  aspect-ratio: 16 / 9; /* Maintain the correct aspect ratio */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+
+.whychoose-emp{
+   border-bottom: 2px dotted #28bb07; /* Bottom border only */
+    display: inline-block; /* Ensure the text size doesn't span full width */
+    padding-bottom: 2px;
+    color: #3da9fc;
+}
